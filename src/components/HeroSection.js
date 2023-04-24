@@ -19,7 +19,7 @@ const HeroSection = () => {
               animi! Suscipit sapiente.
             </p>
             <NavLink>
-              <Button>show now</Button>
+              <Button>Shop Now</Button>
             </NavLink>
           </div>
           {/* our homepage image  */}
