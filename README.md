@@ -1,3 +1,32 @@
+
+## Flow Chart
+
+```mermaid
+graph TD
+    App.js --> Home
+    App.js --> About
+	App.js --> Products
+	App.js --> Header
+	App.js --> Contact   
+    Home --> HeroSection
+    Home --> ImageSlider
+    Home --> Products
+    Home --> Services
+    Home --> Trusted
+    Products --> FilterSection
+    Products --> ProductList
+    Products --> Sorting
+    ProductList --> GridView
+    ProductList --> ListView
+    GridView --> Product
+    ListView --> Product
+    Product --> SingleProduct
+    SingleProduct --> Pagination
+    SingleProduct --> MyImages
+    SingleProdcut --> ProductData
+	Header --> Nav
+    Contact --> ContactForm
+ ```
 ## Follow the 3 Steps and your good to go. 
 
 ### 1: Clone the Project 
@@ -83,32 +112,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-## Flow Chart
-
-```mermaid
-graph TD
-    App.js --> Home
-    App.js --> About
-	App.js --> Products
-	App.js --> Header
-	App.js --> Contact   
-    Home --> HeroSection
-    Home --> ImageSlider
-    Home --> Products
-    Home --> Services
-    Home --> Trusted
-    Products --> FilterSection
-    Products --> ProductList
-    Products --> Sorting
-    ProductList --> GridView
-    ProductList --> ListView
-    GridView --> Product
-    ListView --> Product
-    Product --> SingleProduct
-    SingleProduct --> Pagination
-    SingleProduct --> MyImages
-    SingleProdcut --> ProductData
-	Header --> Nav
-    Contact --> ContactForm
- ```
